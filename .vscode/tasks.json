@@ -1,0 +1,1247 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "nasapg Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Win32",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Win64",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"Android",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Shipping",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapg HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapg HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapg",
+				"HTML5",
+				"Test",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapgEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapgEditor",
+				"Win64",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapgEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapgEditor",
+				"Win64",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapgEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapgEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapgEditor",
+				"Win64",
+				"Debug",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapgEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapgEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapgEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapgEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapgEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapgEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapgEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapgEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapgEditor",
+				"Win64",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapgEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"nasapgEditor",
+				"Win64",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"nasapgEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		},
+		{
+			"label": "nasapgEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"nasapgEditor",
+				"Win64",
+				"Development",
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+			}
+		}
+	]
+}

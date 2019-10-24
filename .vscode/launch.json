@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "nasapg (Debug)",
+			"request": "launch",
+			"preLaunchTask": "nasapg Win64 Debug Build",
+			"program": "F:\\Unreal Projects\\nasapg\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "S:\\EpicGamesLibrary\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "nasapg (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "nasapg Win64 DebugGame Build",
+			"program": "F:\\Unreal Projects\\nasapg\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "S:\\EpicGamesLibrary\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "nasapg (Development)",
+			"request": "launch",
+			"preLaunchTask": "nasapg Win64 Development Build",
+			"program": "F:\\Unreal Projects\\nasapg\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "S:\\EpicGamesLibrary\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "nasapg (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "nasapg Win64 Shipping Build",
+			"program": "F:\\Unreal Projects\\nasapg\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "S:\\EpicGamesLibrary\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "nasapg (Test)",
+			"request": "launch",
+			"preLaunchTask": "nasapg Win64 Test Build",
+			"program": "F:\\Unreal Projects\\nasapg\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "S:\\EpicGamesLibrary\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "nasapgEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "nasapgEditor Win64 Debug Build",
+			"program": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject"
+			],
+			"cwd": "S:\\EpicGamesLibrary\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "nasapgEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "nasapgEditor Win64 DebugGame Build",
+			"program": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject"
+			],
+			"cwd": "S:\\EpicGamesLibrary\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "nasapgEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "nasapgEditor Win64 Development Build",
+			"program": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"F:\\Unreal Projects\\nasapg\\nasapg.uproject"
+			],
+			"cwd": "S:\\EpicGamesLibrary\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "S:\\EpicGamesLibrary\\UE_4.23\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"F:\\Unreal Projects\\nasapg\\nasapg.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "S:\\EpicGamesLibrary\\UE_4.23"
+		}
+	]
+}
